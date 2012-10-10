@@ -108,7 +108,6 @@ a txt file for a single (different) stanza,
 \item after resolving the third pull merge conflict, push the result
   to your (newly created) remote repository. 
 \end{itemize}
-
 My Answer: See the attachements and explanation, I printed the history and content out. 
 
 \newpage
@@ -150,6 +149,13 @@ or exogenous variable?
 Note also that in addition to this issue, there are other issues that
 you are to consider.  So, \emph{be sure to consult IMM}. 
 
+My Answer: 
+1. A, B, C, D should do their work in order. They should start their part after the previous one has finished their part. So the work flow is like: A start ->A finish ->B start ->B finish ->C start ->C finish ->D start ->D finish. Similar to the method we used in Problem1. See the attachment of history graph for this strategy. The strength of this strategy is that it won't cause merge conflicts. But the weakness is obvious, you need to do it in pre-decided order and wait for others' commit.
+
+2. A, B, C, D can do their work independently without waitting for others' commit. They can work on different files and then merge them into a single file. Similar to the method we used in the Problem2. See the attachment of the history graph for this strategy. The strength of this strategy is that the four people can do their parts independently without waitting for others. But this strategy will cause merge conflict and you need to fix it manually.
+
+3. My recommendation is the second strategy, because you can finish this teamwork with more freedom.
+
 \vskip0.25in
 \noindent\textbf{Problem 4 (aka.\ Fair Play, 40 pts):}
 Answer the following question:
@@ -163,6 +169,8 @@ You may use the class discussion on this particular
 problem, but you \emph{may not} directly refer to our 
 discussion.  Instead, formulate the model carefully but concisely in 
 your own words.   
+
+My Answer: See the file- Problem4.pdf
 
 \vskip0.25in
 \noindent\textbf{Final Remarks about Problem 3 \& Problem 4:} 
